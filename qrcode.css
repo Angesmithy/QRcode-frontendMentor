@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    background-color: hsl(212, 45%, 89%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.attribution {
+     font-size: 11px; text-align: center;
+     }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.card{
+
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    width:  100%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 320px; /* taille de la carte */
+    text-align: center;
+    margin: 20px;
+}
+.qrcode{
+    max-width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.titleinfo {
+    margin-bottom: 15px;    
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+
+.secondinfo{
+    color: rgb(95, 94, 94);
+}
